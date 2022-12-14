@@ -1,5 +1,6 @@
 services:
   nginx:
+    image: nginx
     build:
       context: .
     ports:
