@@ -1,0 +1,9 @@
+docker run -it --rm -d -p 8000:80 --name website nginx
+
+curl localhost:8000
+
+nginx -t
+
+nginx -T 
+
+docker build -t webserver .
